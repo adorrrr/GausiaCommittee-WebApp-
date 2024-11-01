@@ -15,6 +15,11 @@ html, body{
     width: 100%;
 }
 
+
+
+
+
+/* Navigation Section */
 #nav-section1{
     height: 140px;
     width: 100%;
@@ -95,12 +100,16 @@ html, body{
 }
 
 
+
+
+
+/* Navigation Bar */
 #nav {
     display: flex;
     justify-content: space-between;
-    text-align: center;
-    padding: 30px 9%; 
+    padding: 30px 11%; 
     margin: -30px 20%;
+    text-align: center;
     position: relative;
     border: none; 
     box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
@@ -142,7 +151,7 @@ html, body{
 
 .nav_links li a:hover {
     transition: 0.5s;
-    color: #ff6a00; 
+    color: #01520e; 
 }
 
 .nav_links p {
@@ -164,6 +173,10 @@ html, body{
     cursor: pointer;
 }
 
+
+
+
+
 /* Carousel Container */
 .carousel {
     position: relative;
@@ -175,7 +188,6 @@ html, body{
     border-radius: 20px;
 }
 
-/* Carousel Images */
 .carousel-inner {
     display: flex;
     background-size: cover;
@@ -216,7 +228,6 @@ html, body{
     right: 15px;
 }
 
-/* Indicators */
 .carousel-indicators {
     display: flex;
     justify-content: center;
@@ -240,6 +251,9 @@ html, body{
 
 
 
+
+
+/*  About Section  */
 #about-section{
     display: flex;
     justify-content: space-between;
@@ -271,6 +285,219 @@ html, body{
 
 #about p{
     font-size: 18px;
-    color: #333;
+    color: #333333cb;
     padding-top: 10px;
+}
+
+
+
+
+
+/*  Donation Section  */
+#donation-section{   
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+    padding: 0 100px;
+    padding-bottom:100px ;
+}
+
+#donation{
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    position: relative;
+}
+
+#donation-section h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #01520e;
+    padding-bottom: 80px;
+}
+
+#donation img{
+    height: 240px;
+    background-size: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+#donation1{
+    width: min-content;
+    border: 0.5px solid #333;
+    background-size: cover;
+    border: none; 
+    box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.2);
+    border-radius: 16px;
+    margin: 0 10px;
+    background-color: #e2e1e1;
+}
+
+#donation1 h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #05a01f;
+    padding: 15px 0;
+}
+
+#donation1 p{
+    font-size: 15px;
+    color: #333333cc;
+    padding: 15px 5px;
+}
+
+#donation1 button{
+    background-color: #013f03;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+/*  news Section  */
+#news-section{
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    padding: 60px 100px;
+    margin-top: 60px;
+    /* padding-bottom: 300px; */
+    background-image: url(../assets/paper.jpg);
+}
+
+#news-section h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #01520e;
+    padding-bottom: 80px;
+}
+
+#news{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#news img{
+    height: 500px;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+#news1{
+    width: min-content;
+    border: 0.5px solid #333;
+    background-size: cover;
+    border: none; 
+    box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.2);
+    border-radius: 16px;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #ffffff;
+}
+
+#news2{
+    width: min-content;
+    border: 0.5px solid #333;
+    background-size: cover;
+    border: none; 
+    box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.2);
+    border-radius: 16px;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #ffffff;
+}
+
+#news h3{
+    padding: 15px 0;
+}
+
+#news a{
+    text-decoration: none; 
+    color: #000000;
+}
+
+#news a:hover {
+    transition: 0.5s;
+    color: #048519; 
+}
+
+
+
+
+
+/*  Video Section  */
+#video-section{
+    /* margin-top: -100px; */
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+#video-section iframe{
+    background-size: cover;
+    border-radius: 16px;
+}
+
+
+
+
+
+/*  Volunteer Section  */
+#Volunteer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 0 20px; /* Adjust padding as needed */
+    margin-top: 60px;
+    height: 500px;
+    background-image: url(../assets/join.jpg);
+    background-size: cover;
+    opacity: 80%;
+}
+
+#Volunteer-section button {
+    margin-top: 30px; 
+    padding: 10px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    color: black;
+}
+
+#Volunteer-section button a {
+    text-decoration: none;
+    color: black;
+}
+
+#Volunteer-section button:hover {
+    transition-duration: 0.9s;
+    color: rgb(255, 255, 255); 
+    background-image: url(../assets/join.jpg); 
+    box-shadow: 2px 4px 5px 3px rgba(0,0,0,0.2);
+    cursor: pointer; 
+}
+
+
+
+
+#footer{
+    text-align: center;
+    padding: 60px 100px;
+    color: #f1f1f1de;
+    background-image: url(../assets/ee.jpg);
 }
