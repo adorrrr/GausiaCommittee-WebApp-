@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gausia Committee Bangladesh</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/donation.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="icon" href="./assets/logo.png">
+</head>
+    <div id="main">
+        <div id="nav-section1">
+            <div id="logo-name">
+                <a href="home.html"><img src="./assets/logo.png" alt=""></a>
+                <div id="name">
+                    <h2>Gausia Committee</h2>
+                    <h3>Bangladesh</h3>
+                </div>
+            </div>
+            <div id="mail">
+                <i class="ri-chat-3-line"></i>
+                <div id="our-mail">
+                    <h5>You may send an email</h5>
+                    <h4>gausiacommittee@gmail.com</h4>
+                </div>
+            </div>
+            <div id="phone">
+                <i class="ri-phone-line"></i>
+                <div id="our-phone">
+                    <h5>Helpline and support</h5>
+                    <h4>+8801402457752</h4>
+                </div>
+            </div>
+            <div id="account">
+                <button><a href="./login.html">My Account</a></button>
+            </div>
+        </div>
+ 
+        <div id="nav-section2">
+            <div id="nav">
+                <ul class="nav_links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="donation.html">Donation</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <button><a href="/registration.html">Become a Volunteer</a></button>
+                </ul>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                <i class="ri-menu-4-line"></i><!-- Hamburger Icon -->
+            </a>
+        </div>
+
+        <div id="donation-sectionn">
+            <div id="donation-1">
+                <img src="./assets/donation.png" alt="">
+            </div>
+
+            <div id="donation-2">
+                <h1>Donation Form</h1>
+                <hr>
+                <form id="donate-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                    </div>                      
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email or Number" required>
+                    </div>
+                    <div class="form-group">   
+                        <input type="number" id="Amount" name="Amount" placeholder="Amount" required>
+                    </div>
+                    <div class="form-group">
+                        <select name="donate" id="donate">
+                            <!-- <option value="Select" ></option> -->
+                            <option value="Flood Emergency">Flood Emergency</option>
+                            <option value="Winter Appeal">Winter Appeal</option>
+                            <option value="Ramadan Ifter Fund">Ramadan Ifter Fund</option>
+                          </select>
+                    </div>
+                    <button type="submit" class="button">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div id="footer">
+            <p>Copyright © 2024 Gausia Committee Bangladesh - all rights reserved. Technical support by Quantic Dynamics.</p>
+            <p>Terms and conditions | Privacy Policy</p>
+        </div>
+    </div>
+
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav_links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+    
+</body>
+</html>

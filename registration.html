@@ -43,13 +43,14 @@
                 <ul class="nav_links">
                     <li><a href="home.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Donation</a></li>
-                    <!-- <li><a href="contact.html">News</a></li> -->
+                    <li><a href="donation.html">Donation</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <p>Join us now</p>
                     <button><a href="/registration.html">Become a Volunteer</a></button>
                 </ul>
-            </div>  
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                <i class="ri-menu-4-line"></i><!-- Hamburger Icon -->
+            </a>
         </div>
 
         <div id="registration">
@@ -85,9 +86,7 @@
                 </div>
             
                 <button type="submit" class="button">Submit</button>
-            </form>
-            
-            
+            </form>  
         </div>
 
         <div id="footer">
@@ -95,5 +94,14 @@
             <p>Terms and conditions | Privacy Policy</p>
         </div>
     </div>
+
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav_links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+    
 </body>
 </html>

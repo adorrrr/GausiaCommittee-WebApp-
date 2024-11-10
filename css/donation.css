@@ -1,0 +1,149 @@
+#donation-sectionn{
+    text-align: center;
+    position: relative;
+    padding: 0 100px;
+    margin-top: 80px;
+    background-color: #ffffff;
+}
+
+#donation-1 img{
+    border-radius: 15px; ;
+    height: 350px;
+    position: relative;
+}
+
+#donation-img{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+}
+
+#donation-img img{
+    height: 150px;
+    border-radius: 20px;
+    margin: 0 10px;
+    margin-top: -3%;
+}
+
+#donation-2{
+    text-align: center;
+    position: relative;
+    margin: -4% 25%;
+    margin-bottom: 80px;
+    padding: 20px 40px;
+    border: none;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.363);
+    border-radius: 20px;
+    background-image: url(../assets/paper.jpg );
+}
+
+input, select{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+ 
+#donation-2 button {
+    margin-top: 20px; 
+    padding: 10px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+#donation-2 button:hover {
+    transition-duration: 0.9s;
+    color: rgb(0, 0, 0); 
+    background-image: url(../assets/1.png); 
+    box-shadow: 2px 4px 5px 3px rgba(0,0,0,0.2);
+    cursor: pointer; 
+}
+
+h1{
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: rgb(13, 54, 0);
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1280px) {
+
+    #donation-1 img{
+        border-radius: 15px; ;
+        height: 250px;
+        position: relative;
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+    #donation-sectionn {
+        padding: 0 20px; 
+        margin-top: -30px;
+    }
+
+    #donation-1 img {
+        height: 200px; 
+    }
+
+    #donation-2 {
+        margin: 10px auto; 
+        padding: 15px 20px; 
+        width: 90%; 
+    }
+
+    input, select {
+        margin: 5px 0; 
+        padding: 8px; 
+    }
+
+    #donation-2 button {
+        padding: 8px 20px; 
+        font-size: 14px; 
+    }
+
+    h1 {
+        font-size: 28px; 
+    }
+}
+
+@media (max-width: 480px) {
+    #donation-sectionn {
+        padding: 0 20px; 
+        margin-bottom: 90px;
+    }
+
+    #donation-1 img {
+        height: 85px; 
+    }
+
+    #donation-2 {
+        padding: 10px; 
+        margin: -10px auto;
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        font-size: 20px; 
+    }
+
+    #donation-2 button {
+        padding: 6px 15px;
+        font-size: 10px; 
+    }
+}

@@ -8,6 +8,8 @@
 html, body{
     height: 100%;
     width: 100%;
+    scroll-behavior: smooth;
+    background-color: #FFFFFF;
 }
 
 #main{
@@ -15,15 +17,11 @@ html, body{
     width: 100%;
 }
 
-
-
-
-
 /* Navigation Section */
 #nav-section1{
     height: 140px;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: #E3EAEA;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,11 +61,11 @@ html, body{
 #mail i{
     font-size: 25px;
     margin: 0 10px;
-    border: 1px solid #333;
+    border: 1px solid #6A9C89;
     border-radius: 50%;
     padding: 5px;
     color: white;
-    background-color: #014b07;
+    background-color: #6A9C89;
 }
 
 #phone{
@@ -80,15 +78,15 @@ html, body{
 #phone i{
     font-size: 25px;
     margin: 0 10px;
-    border: 1px solid #333;
+    border: 1px solid #6A9C89;
     border-radius: 50%;
     padding: 5px;
     color: white;
-    background-color: #014b07;
+    background-color: #6A9C89;
 }
 
 #account button{
-    background-color: #013f03;
+    background-color: #16423C;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -105,7 +103,7 @@ html, body{
 #account button:hover {
     transition-duration: 0.9s;
     color: rgb(255, 255, 255); 
-    background-color: #048519; 
+    background-color: #306853; 
     box-shadow: 2px 4px 5px 3px rgba(0,0,0,0.2);
     cursor: pointer; 
 }
@@ -119,7 +117,7 @@ html, body{
 #nav {
     display: flex;
     justify-content: space-between;
-    padding: 30px 11%; 
+    padding: 30px 14%; 
     margin: -30px 20%;
     text-align: center;
     position: relative;
@@ -163,7 +161,7 @@ html, body{
 
 .nav_links li a:hover {
     transition: 0.5s;
-    color: #05a01f;
+    color: #306853;
 }
 
 .nav_links p {
@@ -176,7 +174,7 @@ html, body{
 }
 
 .nav_links button{
-    background-color: #013f03;
+    background-color: #16423C;
     color: white;
     border: none;
     padding: 8px 15px;
@@ -193,7 +191,7 @@ html, body{
 .nav_links button:hover {
     transition-duration: 0.9s;
     color: rgb(255, 255, 255); 
-    background-color: #048519; 
+    background-color: #306853; 
     box-shadow: 2px 4px 5px 3px rgba(0,0,0,0.2);
     cursor: pointer; 
 }
@@ -276,9 +274,6 @@ html, body{
 }
 
 
-
-
-
 /*  About Section  */
 #about-section{
     display: flex;
@@ -287,7 +282,7 @@ html, body{
     position: relative;
     padding: 0 100px;
     margin-top: 60px;
-    background-color: #f1f1f1;
+    background-color: #E3EAEA;
 }
 
 #about-section img{
@@ -360,13 +355,13 @@ html, body{
     box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.2);
     border-radius: 16px;
     margin: 0 10px;
-    background-color: #e2e1e1;
+    background-color: #E3EAEA;
 }
 
 #donation1 h2{
     font-size: 30px;
     font-weight: 600;
-    color: #05a01f;
+    color: #01520e;
     padding: 15px 0;
 }
 
@@ -376,15 +371,25 @@ html, body{
     padding: 15px 5px;
 }
 
-#donation1 button{
-    background-color: #013f03;
-    color: white;
+#donation1 button {
+    margin: 15px; 
+    padding: 10px 25px;
+    font-size: 16px;
     border: none;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    font-size: 15px;
-    cursor: pointer;
+    border-radius: 50px;;
+    background-color: #01520e;
+}
+
+#donation1 button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#donation1 button:hover {
+    transition-duration: 0.9s;
+    background-color: #306853;
+    box-shadow: 2px 4px 5px 3px rgba(0,0,0,0.2);
+    cursor: pointer; 
 }
 
 
@@ -398,7 +403,6 @@ html, body{
     position: relative;
     padding: 60px 100px;
     margin-top: 60px;
-    /* padding-bottom: 300px; */
     background-image: url(../assets/paper.jpg);
 }
 
@@ -465,7 +469,6 @@ html, body{
 
 /*  Video Section  */
 #video-section{
-    /* margin-top: -100px; */
     display: flex;
     justify-content: space-around;
     padding: 100px;
@@ -488,32 +491,30 @@ html, body{
     align-items: center;
     text-align: center;
     position: relative;
-    padding: 0 20px; /* Adjust padding as needed */
-    margin-top: 60px;
-    height: 500px;
-    background-image: url(../assets/join.jpg);
+    height: 250px;
+    background-image: url(../assets/paper.jpg);
     background-size: cover;
-    opacity: 80%;
 }
 
 #Volunteer-section button {
-    margin-top: 30px; 
+    margin-top: 10px; 
     padding: 10px 25px;
-    font-size: 16px;
+    font-size: 13px;
     border: none;
     border-radius: 50px;
-    color: black;
+    color: rgb(255, 255, 255);
+    background-color: #01520e;
 }
 
 #Volunteer-section button a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 #Volunteer-section button:hover {
     transition-duration: 0.9s;
     color: rgb(255, 255, 255); 
-    background-image: url(../assets/join.jpg); 
+    background-color: #306853;
     box-shadow: 2px 4px 5px 3px rgba(0,0,0,0.2);
     cursor: pointer; 
 }
@@ -526,4 +527,364 @@ html, body{
     padding: 60px 100px;
     color: #f1f1f1de;
     background-image: url(../assets/ee.jpg);
+}
+
+
+
+
+.icon {
+    display: none; /* Hidden by default */
+}
+
+@media (max-width: 768px) {
+
+    #mail{
+        display: none; 
+    }
+
+    #phone{
+        display: none; 
+    }
+
+    .nav_links {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #E3EAEA;
+        z-index: 1;
+        text-align: center;
+        padding: 20px 10px;
+        margin-top: -80px;
+        transition-duration: 0.9s;
+    }
+
+    .nav_links.active {
+        display: flex; /* Show links when active */
+    }
+
+    .icon {
+        display: block; /* Show hamburger icon */
+        font-size: 24px;
+        cursor: pointer;
+        color: #000;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+    }
+}
+
+
+
+
+@media (max-width:1280px) {
+
+/* Navigation Bar */
+#nav {
+    padding: 30px 12%; 
+    margin: -30px 14%;
+}
+
+.nav_links li a {
+    text-decoration: none; 
+    color: #000000; 
+    font-size: 16px;
+    padding: 0px 10px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.nav_links button{
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+/* Carousel Container */
+.carousel {
+    position: relative;
+    max-width: 75%;
+    margin: auto;
+    margin-top: 60px;
+    overflow: hidden;
+    height: 400px;
+    border-radius: 20px;
+}
+
+/* about */
+#about-section img{
+    padding: 0 20px;
+    height: 400px;
+}
+
+#about{
+    padding: 0 60px;
+
+} 
+
+#donation-section{   
+    padding: 0 0px;
+}
+
+#donation{
+    padding: 0 0px;
+}
+
+#news img{
+    height: 350px;
+}
+
+#donation img{
+    height: 220px;
+
+}
+
+
+}
+
+@media (max-width:1200px) {
+
+/* Navigation Bar */
+#nav {
+    padding: 30px 12%; 
+    margin: -30px 14%;
+}
+
+.nav_links li a {
+    text-decoration: none; 
+    color: #000000; 
+    font-size: 16px;
+    padding: 0px 10px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.nav_links button{
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+/* Carousel Container */
+.carousel {
+    position: relative;
+    max-width: 75%;
+    margin: auto;
+    margin-top: 60px;
+    overflow: hidden;
+    height: 400px;
+    border-radius: 20px;
+}
+
+/* about */
+#about-section img{
+    padding: 0 20px;
+    height: 400px;
+}
+
+#about{
+    padding: 0 60px;
+
+} 
+
+#donation-section{   
+    padding: 0 0px;
+}
+
+#donation{
+    padding: 0 0px;
+}
+
+#news img{
+    height: 350px;
+}
+
+#donation img{
+    height: 220px;
+
+}
+
+}
+
+
+
+
+
+
+/* tab viwe */
+@media (max-width: 768px) {
+    #nav-section1 {
+        height: auto;
+        margin-right: 100px;
+    }
+
+    #logo-name img {
+        height: 50px;
+        width: 50px;
+    }
+
+    #account button {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    #nav {
+        flex-direction: column;
+        padding: 10px;
+        margin: 20px 0;
+        box-shadow: none;
+    }
+
+    .nav_links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .carousel {
+        margin-top: -60px;
+        margin-bottom: -60px;
+        height: 175px;
+        width:100%;
+        max-width: 100%;
+        left: 0px;
+        border-radius: 0px;
+    }
+
+    .carousel-item img {
+        height: auto;
+    }
+
+    
+    #about-section {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    
+    #about-section img {
+        height: 100px;
+    }
+
+    #about{
+        padding: 0 25px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    #about h1{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    
+    #about p{
+        font-size: 13px;
+    }
+    
+
+    #donation {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #donation img{
+        height: 180px;
+    }
+
+    #donation h1{
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    #donation1 {
+        margin-bottom: 20px;
+    }
+
+    #news {
+        flex-direction: column;
+    }
+
+    #news img{
+        height: 150px;
+    }
+
+    #video-section iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    #Volunteer-section {
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+/* mobile view */
+@media (max-width: 480px) {
+    #nav-section1 {
+        padding: 8px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+    }
+
+    #account button {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+
+    #logo-name img {
+        height: 40px;
+        width: 40px;
+    }
+
+    #account button {
+        font-size: 12px;
+    }
+
+    #about h1 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+    #donation-section h1 {
+        font-size: 24px;
+        padding-bottom: 10px;
+        padding: 20px;
+    }
+
+    #donation1 h2 {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    #donation1 p {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    #news img {
+        height: 300px;
+    }
+    #news1, #news2 {
+        margin-bottom: 20px;
+    }
+
+    #news h3 {
+        font-size: 12px;
+    }
+    
+    #news-section h1 {
+        font-size: 25px;
+        padding-bottom: 40px;
+    }
+
+    #video-section{
+        margin-top: 40px;
+        padding: 25px;
+    }
+
+    #footer {
+        font-size: 10px;
+        padding: 50px 20px;
+    }
 }

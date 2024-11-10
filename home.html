@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
     rel="stylesheet"/>
     <link rel="icon" href="./assets/logo.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
@@ -20,14 +21,14 @@
                     <h3>Bangladesh</h3>
                 </div>
             </div>
-            <div id="mail">
+            <div id="mail" class="mail">
                 <i class="ri-chat-3-line"></i>
                 <div id="our-mail">
                     <h5>You may send an email</h5>
                     <h4>gausiacommittee@gmail.com</h4>
                 </div>
             </div>
-            <div id="phone">
+            <div id="phone" class="phone">
                 <i class="ri-phone-line"></i>
                 <div id="our-phone">
                     <h5>Helpline and support</h5>
@@ -44,15 +45,16 @@
                 <ul class="nav_links">
                     <li><a href="home.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Donation</a></li>
-                    <!-- <li><a href="contact.html">News</a></li> -->
+                    <li><a href="donation.html">Donation</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <p>Join us now</p>
                     <button><a href="/registration.html">Become a Volunteer</a></button>
                 </ul>
-            </div>  
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                <i class="ri-menu-4-line"></i><!-- Hamburger Icon -->
+            </a>
         </div>
-
+               
         <div class="carousel">
             <!-- Carousel Inner Wrapper -->
             <div class="carousel-inner">
@@ -95,19 +97,19 @@
                     <img src="https://i.brecorder.com/primary/2024/08/24173824dd59c6d.jpg" alt="Flood">
                     <h2>Flood Emergency</h2>
                     <p>About 26,000 sq km (18%) of Bangladesh is flooded by monsoons every year. At this time, especially in the northern part of the country, the flood-affected people are the victims of extreme misery. Every year, the Gausia Committee Bangladesh carries out relief activities in the flood-hit districts of the country and takes the initiative to stand by the needy and helpless people.</p>
-                    <button>Donate</button>
+                    <button><a href="donation.html">Donate</a></button>
                 </div>
                 <div id="donation1">
-                    <img src="https://121clicks.com/wp-content/uploads/2021/01/winter_life_in_villages_of_bangladesh_02.jpg" alt="Winter Appeal">
+                    <img src="https://www.welthungerhilfe.org/fileadmin/_processed_/c/f/csm_2019-winterhilfe-junge-schnee-kaelte-afghanistan-stefanie-glinski-AFGH2019GLI045_83ffd7b47a.jpg" alt="Winter Appeal">
                     <h2>Winter Appeal</h2>
                     <p>One of the invaluable teachings of Islam is human service. Every year, the Gausia Committee Bangladesh organizes a 'Winter Clothing Distribution and Da'wah Program' to bring a little warmth to the helpless cold-stricken people in remote areas of Bangladesh.</p>
-                    <button>Donate</button>
+                    <button><a href="donation.html">Donate</a></button>
                 </div>
                 <div id="donation1">
                     <img src="https://t3.ftcdn.net/jpg/08/62/11/52/360_F_862115213_TZYO0McpgztTsXb3zzx2UaXli0ojlonT.jpg" alt="Ramadan Ifter">
                     <h2>Ramadan Ifter Fund</h2>
                     <p>One of the regular programs of the Gausia Committee Bangladesh is the distribution of Iftar and Ramadan food. The Foundation has taken initiative to distribute Iftar items among the needy fasting people in remote areas of the country so that they can observe fasting and worship without any hindrance during the month of Ramadan.</p>
-                    <button>Donate</button>
+                    <button><a href="donation.html">Donate</a></button>
                 </div>
             </div>
         </div>
@@ -135,7 +137,7 @@
         </div>
 
         <div id="Volunteer-section">
-            <br><br><br><br><br><br><br><br>
+            <h1>Join us now</h1>
             <button><a href="/registration.html">Become a Volunteer</a></button>                
         </div>
         

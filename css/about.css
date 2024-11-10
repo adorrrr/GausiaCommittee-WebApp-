@@ -1,0 +1,43 @@
+#about-sectionn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 100px;
+    margin-top: 60px;
+    background-color: #ffffff;
+}
+
+
+
+
+/* mobile view */
+@media (max-width: 480px) {
+    #about-sectionn {
+        flex-direction: column;
+        padding: 0 10px;
+        margin-top: -10px;
+        margin-bottom: 60px;
+    }
+    
+    #about-sectionn img {
+        height: 100px;
+    }
+
+    #about{
+        padding: 0 25px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    #about h1{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    
+    #about p{
+        font-size: 13px;
+    }
+    
+
+}

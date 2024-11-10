@@ -64,3 +64,22 @@ hr{
 .form-group1{
     padding-top: 30px;
 }
+
+
+
+
+@media (max-width: 480px) {
+    #login{
+        margin-top: -20px;
+        margin: 10px auto; 
+        padding: 15px 20px; 
+        width: 80%; 
+        margin-bottom: 100px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+
+}

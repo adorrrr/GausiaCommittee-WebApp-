@@ -1,3 +1,10 @@
+function toggleMenu() {
+    const navLinks = document.querySelector('.nav_links');
+    navLinks.classList.toggle('active');
+}
+
+
+
 let currentIndex = 0;
 
 function showSlide(index) {
@@ -36,3 +43,8 @@ function setSlide(index) {
 setInterval(() => {
     nextSlide();
 }, 5000);
+
+
+
+
+
